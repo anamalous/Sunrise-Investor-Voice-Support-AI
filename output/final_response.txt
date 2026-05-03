@@ -1,0 +1,5 @@
+USER QUERY: Hi, I recently invested in an equity mutual fund through my SIP.  I want to know, if I redeem my units after 14 months, how will my gains be taxed?  And will any TDS be deducted?
+
+ASSISTANT RESPONSE:
+Based on the FAQ provided, if you redeem your units from an equity mutual fund after 14 months (which is more than 12 months), your gains will be considered as Long-Term Capital Gains (LTCG). As per the current tax laws (FY 2025-26), LTCG exceeding Rs. 1.25 lakh in a financial year are taxed at 12.5%. TDS is not applicable for resident Indian investors on mutual fund redemptions, so no TDS will be deducted from your gains (Source: FAQ Q9, Q10). However, please consult your tax advisor for personalized advice as tax laws are subject to change.
+Mutual Fund investments are subject to market risks. Please read all scheme related documents carefully before investing
