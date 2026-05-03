@@ -11,7 +11,7 @@ Follow these steps to get the pipeline running on your local machine.
 * **Ollama:** [Download Ollama](https://ollama.com/) and ensure the service is running.
 * **Mistral:** Pull the model via terminal:
   ```bash
-  ollama pull mistral
+  ollama run mistral
   ```
 
 ### 2. Environment Setup
@@ -30,7 +30,13 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 3. Running the Pipeline
+### 3. Data Initialization 
+Before running the pipeline, you must process the FAQ document to initialize the local vector database. Ensure `SunriseAMC_FAQ.pdf` is in the `/input` folder.
+```bash
+python src/ingestor.py
+```
+
+### 4. Running the Pipeline
 Ensure your input files (`investor_sample.mp3` and `SunriseAMC_FAQ.pdf`) are in the `/input` folder in the project root.
 ```bash
 python main.py
